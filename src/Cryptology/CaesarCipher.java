@@ -26,6 +26,7 @@ public class CaesarCipher {
      */
     public static String encrypt(String s) {
         StringBuilder builder = new StringBuilder();
+
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) < 65 || s.charAt(i) > 90) {
                 throw new IllegalArgumentException("" + "String does not contain only uppercase characters.");
@@ -36,5 +37,25 @@ public class CaesarCipher {
         }
 
         return builder.toString();
+    }
+
+    /**
+     * Decrypts using Caesar cipher
+     * @param s string containing only uppercase characters
+     * @return decrypted string (open text)
+     */
+    public static String decrypt(String s) {
+        StringBuilder builder = new StringBuilder();
+
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) < 65 || s.charAt(i) > 90) {
+                throw new IllegalArgumentException("" + "String does not contain only uppercase characters.");
+            }
+            // Modularly subtract the shift
+            char decrypted = s.charAt(i) - SHIFT < 65 ? (char) ((s.charAt(i) - SHIFT) + 26) : (char) (s.charAt(i) - SHIFT);
+            builder.append(decrypted);
+        }
+
+        return builder.toString();`
     }
 }
