@@ -56,6 +56,6 @@ public class CaesarCipher {
             builder.append(decrypted);
         }
 
-        return builder.toString();`
+        return builder.toString();
     }
 }
