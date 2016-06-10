@@ -1,3 +1,5 @@
+import Others.Ackerman;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,14 +8,14 @@ public class Main {
 
 
 
-        /*Sierpinski sier = new Sierpinski();
+        /*Recursion.Sierpinski sier = new Recursion.Sierpinski();
 
         SwingUtilities.invokeLater(() -> {
             JFrame f = new JFrame();
             f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            f.setTitle("Sierpinski Triangle");
+            f.setTitle("Recursion.Sierpinski Triangle");
             f.setResizable(false);
-            f.add(new Sierpinski(), BorderLayout.CENTER);
+            f.add(new Recursion.Sierpinski(), BorderLayout.CENTER);
             f.pack();
             f.setLocationRelativeTo(null);
             f.setVisible(true);

@@ -1,4 +1,4 @@
-/**
+package Others; /**
  * Created by Atul Anand Sinha on 05 June 2016.
  */
 import org.jetbrains.annotations.NotNull;
