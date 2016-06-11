@@ -30,7 +30,7 @@ public class ShuntingYard {
     @NotNull
     public static String postFix(String infix) {
         StringBuilder output = new StringBuilder();
-        Deque<String> stack = new LinkedList<String>();
+        Deque<String> stack = new LinkedList<>();
 
         for (String token : infix.split("\\s")) {
 
