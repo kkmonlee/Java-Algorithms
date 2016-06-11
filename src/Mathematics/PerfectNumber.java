@@ -18,14 +18,14 @@ public class PerfectNumber {
 
         long result = 1; // trivial
         long i = 2;
-        while (i * i <= number) { // until i <= sqrt(number)
+        while ((i * i) <= number) { // until i <= sqrt(number)
             if (number % i == 0) {
                 result += i;
                 result += number / i;
             }
             i++;
         }
-        if (i * i == number) {
+        if ((i * i) == number) {
             // perfect square, sqrt(number) was added twice
             result -= i;
         }

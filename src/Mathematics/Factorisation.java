@@ -15,7 +15,7 @@ public class Factorisation {
         for (int i = 2; i <= Math.sqrt(remainder); i++) {
             // For all i less or equal to sqrt(remainder)
             // try to factorise the remainder
-            while (remainder % i == 0) {
+            while ((remainder % i) == 0) {
                 remainder = remainder / i;
                 System.out.print(i + " ");
             }
