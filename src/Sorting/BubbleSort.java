@@ -2,6 +2,8 @@ package Sorting;
 
 /**
  * Bubble sort is a sorting algorithm
+ *
+ * @author kkmonlee
  */
 public class BubbleSort {
 
