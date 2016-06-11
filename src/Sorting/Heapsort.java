@@ -25,7 +25,7 @@ public class Heapsort {
     public static void heapSort(Comparable[] array, boolean descending) {
 
         for (int i = array.length / 2 - 1; i >= 0; i--) {
-            repairTop(array, array.length - 1, u, descending ? 1 : -1);
+            repairTop(array, array.length - 1, i, descending ? 1 : -1);
         }
 
         for (int i = array.length - 1; i > 0; i--) {
