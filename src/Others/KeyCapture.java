@@ -25,7 +25,7 @@ public class KeyCapture implements NativeKeyListener {
     }
 
     public void nativeKeyTyped(NativeKeyEvent e) {
-        System.out.println("Key typed: " + e.getKeyText(e.getKeyCode()));
+        System.out.println("Key typed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
     }
 
     public static void main(String[] args) {
