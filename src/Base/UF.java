@@ -1,4 +1,4 @@
-package Graphs.PrimsAlgorithm;
+package Base;
 /**
  *  The <tt>UF</tt> class represents a <em>union-find data type</em>
  *  (also known as the <em>disjoint-sets data type</em>).

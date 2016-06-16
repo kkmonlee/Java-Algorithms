@@ -1,4 +1,6 @@
-package Graphs.PrimsAlgorithm;
+package Base;
+
+import Graphs.PrimsAlgorithm.EdgeWeightedGraph;
 
 /**
  *  The <tt>Edge</tt> class represents a weighted edge in an

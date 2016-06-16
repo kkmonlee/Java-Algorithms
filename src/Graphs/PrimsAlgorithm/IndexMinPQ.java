@@ -1,4 +1,6 @@
 package Graphs.PrimsAlgorithm;
+import Base.StdOut;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

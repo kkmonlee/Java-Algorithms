@@ -1,5 +1,7 @@
 package Graphs.PrimsAlgorithm;
 
+import Base.*;
+
 /**
  *  The EdgeWeightedGraph class represents an edge-weighted
  *  graph of vertices named 0 through V - 1, where each

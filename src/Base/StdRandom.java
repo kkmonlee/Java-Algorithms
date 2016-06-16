@@ -1,4 +1,4 @@
-package Graphs.PrimsAlgorithm;
+package Base;
 
 import java.util.Random;
 
