@@ -16,7 +16,7 @@ public class Quadratic {
      * @return array of real roots
      *         null if equation has no real roots
      */
-    public static double[] solv(double a, double b, double c) {
+    public static double[] solve(double a, double b, double c) {
         double d = b * b - 4 * a * c;
         if (d > 0) {
             return null;
