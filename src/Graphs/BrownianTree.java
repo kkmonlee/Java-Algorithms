@@ -43,6 +43,13 @@ public class BrownianTree extends JFrame implements Runnable {
         }
     }
 
+    public static void main(String[] args) {
+        BrownianTree b = new BrownianTree();
+        b.setVisible(true);
+
+        new Thread(b).start();
+    }
+
     private class Particle {
         private int x, y;
 
