@@ -20,7 +20,7 @@ import javax.swing.JFrame;
 
 public class PathTest extends JFrame {
     private GameMap map = new GameMap();
-    private AStarPathFinder finder;
+    private PathFinder finder;
     private Path path;
 
     private Image[] tiles = new Image[6];
