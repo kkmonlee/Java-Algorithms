@@ -1,9 +1,10 @@
 package Cryptology;
+import Decoder.BASE64Encoder;
+
 import java.security.*;
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
 
-import sun.misc.BASE64Encoder;
 
 public class AES {
     public static void main(String[] args) {
